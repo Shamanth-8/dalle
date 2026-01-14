@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files (too large for GitHub - download separately)
+*.pth
+
+# Dataset (too large for GitHub)
+data_new/
+images/
+
+# Old models
+best_wildfire_model.pth
+wildfire_classifier_final.pth
+fire_classifier_final.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.png
+
+# Temporary files
+*.tmp
+*.bak
