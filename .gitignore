@@ -18,8 +18,8 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Model files (too large for GitHub - download separately)
-*.pth
+# Model files (handled by Git LFS)
+# *.pth
 
 # Dataset (too large for GitHub)
 data_new/
